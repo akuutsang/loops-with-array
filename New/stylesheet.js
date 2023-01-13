@@ -9,7 +9,7 @@ const contacts = ["Abi: 2181088",
  const btn = document.querySelector(".button");
 
  btn.addEventListener("click", () => {
-    const searchName = input.ariaValueMax.toLowerCase();
+    const searchName = input.value.toLowerCase();
     input.value = " ";
     input.focus();
     para.textContent = " ";
