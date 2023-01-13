@@ -22,7 +22,7 @@ const contacts = ["Abi: 2181088",
                 }          
         }
         if(para.textContent === " "){
-            para.textContent = "cContact not found.";
+            para.textContent = "Contact not found.";
         }
  });
 
